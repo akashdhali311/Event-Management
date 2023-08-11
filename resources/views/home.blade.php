@@ -9,17 +9,12 @@
 </head>
 
 <body>
-    <form action="" class="col-8">
-        <div class="form-group">
-            
-            <input type="scarch" name="scarch" class="form-control" placeholder=" scarch by event-name"  >
-            
-        </div>
-        <button class="text-blue-600" type="submit">Scarch</button>
-    </form>
+    
     <div class="py-4 px-6 text-right">
 
         <a class="text-blue-600" href="{{route('signin') }}">Sign In </a>
+
+        <br>
 
         <a class="text-blue-600" href="{{route('signup') }}">Sign Up  </a>
 
